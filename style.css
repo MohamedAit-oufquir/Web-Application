@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 :root{
-    --tenne-tawny: #d65108;
-    --tenne-tawny-dark: #b54507;
+    --tenne-tawny:rgb(3, 3, 3);
+    --tenne-tawny-dark: #e80a0a;
 }
 body{
     font-weight: 300;
@@ -139,7 +139,7 @@ body{
     background: var(--tenne-tawny-dark);
 }
 
-/* meal details */
+meal details
 .meal-details{
     position: fixed;
     top: 50%;
@@ -175,8 +175,7 @@ body{
 }
 
 
-/* js related */
-.showRecipe{
+ .showRecipe{
     display: block;
 }
 
@@ -208,7 +207,8 @@ body{
 .recipe-title{
     letter-spacing: 1px;
     padding-bottom: 1rem;
-}
+} 
+
 .recipe-category{
     background: #fff;
     font-weight: 600;
@@ -230,7 +230,7 @@ body{
     border-radius: 0.3rem;
     -webkit-border-radius: 0.3rem;
     -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem; */
     -o-border-radius: 0.3rem;
 }
 .recipe-instruct{
